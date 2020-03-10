@@ -56,7 +56,7 @@ export default {
 .journal-header {
   font-size: 3rem;
   font-weight: 700;
-  padding: 0;
+  padding: 20vh 0 4rem 0;
   margin: 0;
 }
 .journal-post {
