@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Pineapple
+title: Una piña
 date: 2019-02-06
 categories:
 - photography
@@ -10,3 +10,5 @@ project_fg_color: "#36B5EF"
 
 ---
 ![](/uploads/cody-davis-253925-unsplash.jpg)
+
+lorem 

@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Rescatando Moda",
+  siteUrl: `https://www.lindamodasustentable.com`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  titleTemplate: "%s - Linda Moda Sustentable",
+  siteDescription: "Rescato ropa que aún puede ser amada.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
