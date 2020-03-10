@@ -7,6 +7,8 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
+![](/uploads/balls.jpg)
+
 [Forestry](https://forestry.io) is a git-based headless CMS that allow editorial teams to work on JAMstack sites.
 
 It comes with a slick user interface that empower editors to edit CommmonMark, YAML and JSON files.
