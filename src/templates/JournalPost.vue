@@ -36,6 +36,7 @@ query JournalPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     content
+    excerpt
   }
 }
 </page-query>
@@ -51,7 +52,7 @@ export default {
   return {
     ...this.$ogp({
       title: this.$page.post.title,
-      description: 'your-description',
+      description: this.$page.post.excerpt,
       image: 'your-image-url',
       appId: 'someFacebookAppID' // Facebook-only
     })

@@ -23,6 +23,10 @@ fields:
     time_format: ''
     export_format: YYYY-MM-DD
   default: now
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: This will only show up on the front page
 - type: select
   name: author
   config:
