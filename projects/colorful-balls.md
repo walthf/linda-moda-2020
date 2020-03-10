@@ -2,7 +2,8 @@
 date: 2020-03-10
 thumbnail: "/uploads/balls.jpg"
 title: Colorful balls
-categories: []
+categories:
+- Pelotas
 project_bg_color: ''
 project_fg_color: ''
 
