@@ -31,6 +31,9 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-ogp'
     }
   ],
   transformers: {

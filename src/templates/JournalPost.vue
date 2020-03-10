@@ -47,11 +47,16 @@ export default {
   components: {
     JournalContent
   },
-  metaInfo () {
-    return {
-      title: this.$page.post.title
-    }
+  metaInfo() {
+  return {
+    ...this.$ogp({
+      title: this.$page.post.title,
+      description: 'your-description',
+      image: 'your-image-url',
+      appId: 'someFacebookAppID' // Facebook-only
+    })
   }
+}
 }
 </script>
 
