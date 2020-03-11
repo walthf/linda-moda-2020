@@ -4,6 +4,7 @@ title: VueJS for your next project
 author: Nichlas W. Andersen
 excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building
   user interfaces.
+thumbnailjournal: "/uploads/mike-dorner-173502-unsplash.jpg"
 
 ---
 ## Jenny is awesome

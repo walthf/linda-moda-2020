@@ -5,6 +5,11 @@
       <div class="container">
 
         <div class="project-header">
+          <g-image
+                :src="$page.post.thumbnail"
+                :alt="$page.post.title"
+                class="thumbnail"
+            />
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
 
@@ -44,20 +49,25 @@ query ProjectPost ($path: String!) {
     categories
     project_bg_color
     project_fg_color
+    thumbnail (quality: 90)
   }
 }
 </page-query>
-
+  
 <script>
 export default {
-  metaInfo () {
+  metaInfo() {
     return {
-      title: this.$page.post.title,
-      bodyAttrs: {
-        style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
-      }
-    }
+      ...this.$ogp({
+        title: this.$page.post.title,
+      description: this.$page.post.excerpt,
+      // image: this.$page.post.thumbnail.src,
+      image: window.location.hostname + this.$page.post.thumbnail.src,
+      appId: '821166215054888' // Facebook-only
+    })
   }
+}
+
 }
 </script>
 

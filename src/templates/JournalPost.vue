@@ -37,6 +37,7 @@ query JournalPost ($path: String!) {
     timeToRead
     content
     excerpt
+    thumbnailjournal
   }
 }
 </page-query>
@@ -53,8 +54,8 @@ export default {
     ...this.$ogp({
       title: this.$page.post.title,
       description: this.$page.post.excerpt,
-      image: 'your-image-url',
-      appId: 'someFacebookAppID' // Facebook-only
+      image: window.location.hostname + this.$page.post.thumbnailjournal.src,
+      appId: '821166215054888' // Facebook-only
     })
   }
 }
