@@ -50,7 +50,7 @@ export default {
     JournalContent
   },
   metaInfo() {
-    var windowVar = 'mystifying-turing-4a8392.netlify.com';
+    var windowVar = 'lindamodasustentable.com';
   return {
     ...this.$ogp({
       title: this.$page.post.title,
