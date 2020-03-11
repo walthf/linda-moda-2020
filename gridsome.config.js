@@ -3,10 +3,10 @@
 
 module.exports = {
   siteName: "Rescatando Moda",
-  siteUrl: `https://www.lindamodasustentable.com`,
+  siteUrl: "https://www.lindamodasustentable.com",
   host: "0.0.0.0",
   titleTemplate: "%s - Linda Moda Sustentable",
-  siteDescription: "Rescato ropa que aún puede ser amada.",
+  siteDescription: "Rescatando ropa que aún puede ser amada.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -34,6 +34,14 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-ogp'
+    },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-MDTZR4T',
+        enabled: true,
+        debug: true
+      }
     }
   ],
   transformers: {
