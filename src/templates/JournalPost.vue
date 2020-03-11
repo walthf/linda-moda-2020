@@ -50,11 +50,12 @@ export default {
     JournalContent
   },
   metaInfo() {
+    var windowVar = 'mystifying-turing-4a8392.netlify.com';
   return {
     ...this.$ogp({
       title: this.$page.post.title,
       description: this.$page.post.excerpt,
-      image: window.location.hostname + this.$page.post.thumbnailjournal.src,
+      image: windowVar + this.$page.post.thumbnailjournal.src,
       appId: '821166215054888' // Facebook-only
     })
   }

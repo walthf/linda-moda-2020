@@ -52,7 +52,7 @@ query ProjectPost ($path: String!) {
 <script>
 export default {
   metaInfo() {
-    var windowVar = window.location.hostname;
+    var windowVar = 'mystifying-turing-4a8392.netlify.com';
     return {
       ...this.$ogp({
         title: this.$page.post.title,
