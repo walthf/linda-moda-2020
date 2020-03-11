@@ -61,7 +61,6 @@ export default {
       ...this.$ogp({
         title: this.$page.post.title,
       description: this.$page.post.excerpt,
-      // image: this.$page.post.thumbnail.src,
       image: window.location.hostname + this.$page.post.thumbnail.src,
       appId: '821166215054888' // Facebook-only
     })
