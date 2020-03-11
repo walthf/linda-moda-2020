@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: catálogo
+  path: catalogo
   label: Catálogo
   create: documents
   match: "**/*.md"
