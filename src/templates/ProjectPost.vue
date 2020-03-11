@@ -52,11 +52,12 @@ query ProjectPost ($path: String!) {
 <script>
 export default {
   metaInfo() {
+    var windowVar = window.location.hostname;
     return {
       ...this.$ogp({
         title: this.$page.post.title,
       description: this.$page.post.excerpt,
-      image: window.location.hostname + this.$page.post.thumbnail.src,
+      image: windowVar + this.$page.post.thumbnail.src,
       appId: '821166215054888' // Facebook-only
     })
   }
