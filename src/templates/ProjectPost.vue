@@ -5,11 +5,6 @@
       <div class="container">
 
         <div class="project-header">
-          <g-image
-                :src="$page.post.thumbnail"
-                :alt="$page.post.title"
-                class="thumbnail"
-            />
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
 
