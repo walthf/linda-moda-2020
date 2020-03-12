@@ -35,6 +35,7 @@ fields:
       section: authors
       file: data/authors/nichlas-w-andersen.json
     required: true
-    options: []
+    options:
+    - Jenny
   label: Author
-  default: ''
+  default: Jenny
