@@ -2,8 +2,8 @@
 date: 2020-03-12
 title: Haz de tu clóset un clóset ético
 author: Jenny
-excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building
-  user interfaces.
+excerpt: Reduce el impacto negativo que la industria de la moda produce en sus trabajadores
+  y el medio ambiente.
 thumbnailjournal: "/uploads/closet-etico.jpg"
 
 ---
