@@ -53,6 +53,11 @@ export default {
 .logo {
     height: 3.8rem;
 }
+@media (min-width: 375px) {
+    .logo {
+        height: 3.4rem;
+    }
+}
 .site-name {
     font-size: 0.9rem;
     font-weight: 700;
@@ -70,6 +75,11 @@ export default {
     border-bottom: 1px solid;
     border-color: transparent;
     transition: border 0.15s;
+}
+@media (min-width: 375px) {
+    .nav > * {
+        margin-right: 1rem;
+    }
 }
 .nav > *:last-of-type {
     margin: 0;
