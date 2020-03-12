@@ -7,6 +7,7 @@ fields:
   name: title
   config:
     required: true
+  default: Jenny
 - type: textarea
   name: bio
   label: Bio
