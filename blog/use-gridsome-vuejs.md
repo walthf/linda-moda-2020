@@ -1,7 +1,7 @@
 ---
 date: 2020-03-12
 title: Haz de tu clóset un clóset ético
-author: Nichlas W. Andersen
+author: Jenny
 excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building
   user interfaces.
 thumbnailjournal: "/uploads/closet-etico.jpg"
