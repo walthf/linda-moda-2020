@@ -50,7 +50,7 @@ export default {
     JournalContent
   },
   metaInfo() {
-    var windowVar = 'lindamodasustentable.com';
+    var windowVar = 'https://lindamodasustentable.com';
   return {
     ...this.$ogp({
       title: this.$page.post.title,
