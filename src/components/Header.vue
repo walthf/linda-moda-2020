@@ -53,7 +53,7 @@ export default {
 .logo {
     height: 3.8rem;
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .logo {
         height: 3.4rem;
     }
