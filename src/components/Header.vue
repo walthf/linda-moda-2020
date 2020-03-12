@@ -12,7 +12,7 @@
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/blog">Blog</g-link>
-                <g-link class="nav__link" to="/contact">¡Di Hola!</g-link>
+                <g-link class="nav__link catalog" :to="{ name: 'home' }">Catálogo</g-link>
             </nav>
         </div>
     </header>
@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .header {
     position: relative;
     height: 6rem;
@@ -79,5 +79,22 @@ export default {
 }
 .nav > .active {
     border-color: inherit;
+}
+
+.nav {
+  &.right {
+      .catalog {
+        background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
+        padding: 8px 12px;
+        color: white;
+        display: inline-block;
+        transition: .2s ease;
+        border: 0;
+        &:hover {
+          box-shadow: -8px 8px black;
+          transform: translate(4px, -4px);
+        }
+      }
+  }
 }
 </style>

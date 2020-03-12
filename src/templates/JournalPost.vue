@@ -7,7 +7,7 @@
           <h1 v-html="$page.post.title" class="journal-title" />
           <div class="journal-meta">
             <div class="journal-author">
-              <span class="label">Author</span>
+              <span class="label">Autor</span>
               <span class="author-name" v-text="$page.post.author" />
             </div>
             <div class="journal-date">
