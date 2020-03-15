@@ -11,12 +11,12 @@
               <span class="author-name" v-text="$page.post.author" />
             </div>
             <div class="journal-date">
-              <span class="label">Date</span>
+              <span class="label">Fecha</span>
               <div v-text="$page.post.date"/>
             </div>
             <div class="journal-time">
-              <span class="label">Time</span>
-              <span>{{ $page.post.timeToRead }} min read</span>
+              <span class="label">Tiempo</span>
+              <span>{{ $page.post.timeToRead }} minutos de lectura</span>
             </div>
           </div>          
         </div>
