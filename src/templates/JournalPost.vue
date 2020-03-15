@@ -82,6 +82,7 @@ export default {
 }
 .journal-meta > div {
   margin-right: 4rem;
+  margin-bottom: 1rem;
 }
 .journal-meta > div:last-of-type {
   margin: 0;
