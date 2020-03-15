@@ -7,10 +7,9 @@
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
-
             <div class="categories-container">
               <div class="categories">
-                <span class="label">Categories</span>
+                <span class="label">Marca</span>
                 <span 
                   class="category"
                   v-for="(category, index) in $page.post.categories" 
@@ -19,12 +18,19 @@
                 />
               </div>
             </div>
-
-            <div class="year-container">
-              <span class="label">Year</span>
-              <div v-html="$page.post.date"/>
+            <div class="condition">
+              <span class="label">Estado</span>
+              <div v-html="$page.post.estado"/>
             </div>
+            <div class="stock">
+              <span class="label">Disponibilidad</span>
+              <div v-html="$page.post.disponibilidad"/>
+            </div>                                    
           </div>
+          <div class="comprar">
+              <span class="label">¿Dónde lo compro?</span>
+              <a class="compra" :href="$page.post.compra_url" target="blank">Cómpralo en GOTRENDIER</a>
+          </div>   
         </div>
 
         <div v-html="$page.post.content" class="content" />
@@ -42,6 +48,10 @@ query ProjectPost ($path: String!) {
     date (format: "YYYY")
     content
     categories
+    estado
+    talla
+    disponibilidad
+    compra_url
     project_bg_color
     project_fg_color
     thumbnail (quality: 90)
@@ -66,9 +76,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .project-header {
-  padding: 20vh 0 4rem 0;
+  padding: 20vh 0 2rem 0;
 }
 .project-title {
   font-size: 4rem;
@@ -79,9 +89,11 @@ export default {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8rem;
+  margin-bottom: 3rem;
 }
 .project-info > div {
   margin-right: 4rem;
+  margin-bottom: 1rem;
 }
 .project-info > div:last-of-type {
   margin: 0;
@@ -91,5 +103,40 @@ export default {
 }
 .category:last-of-type:after {
   content: '';
+}
+.comprar {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  @media (max-width: 920px) {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: -1rem;
+    right: 0;
+    padding: .5rem;
+    border-top: 1px solid #FC6767;
+    .label {
+      display:none;
+    }
+    .compra {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .compra {
+        background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
+        padding: 12px 16px;
+        color: white;
+        display: inline-block;
+        transition: .2s ease;
+        border: 0;
+        text-decoration: none;
+        // font-weight: 500;
+        font-size: 16px;
+        &:hover {
+          box-shadow: -8px 8px black;
+          // transform: translate(4px, -4px);
+        }
+      }
 }
 </style>

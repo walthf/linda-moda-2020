@@ -9,6 +9,18 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: Estado
+  label: estado  
+- type: text
+  name: Talla
+  label: talla  
+- type: text
+  name: Disponibilidad
+  label: disponibilidad  
+- type: text
+  name: Compra_url
+  label: compra_url  
   config:
     required: true
 - type: datetime
