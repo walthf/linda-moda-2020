@@ -9,20 +9,6 @@ fields:
 - type: text
   name: title
   label: Title
-- type: text
-  name: Estado
-  label: estado
-- type: text
-  name: Talla
-  label: talla
-- type: text
-  name: Disponibilidad
-  label: disponibilidad
-- type: text
-  name: Compra_url
-  label: compra_url
-  config:
-    required: true
 - type: datetime
   name: date
   label: Date
@@ -37,15 +23,19 @@ fields:
 - type: tag_list
   name: categories
   label: Categories
-- type: color
-  name: project_bg_color
+- type: text
+  name: Estado
+  label: estado
+- type: text
+  name: Talla
+  label: talla
+- type: text
+  name: Disponibilidad
+  label: disponibilidad
+- type: text
+  name: Compra_url
+  label: compra_url
   config:
-    color_format: Hex
-  label: Background color
-- type: color
-  name: project_fg_color
-  config:
-    color_format: Hex
-  label: Foreground color
+    required: true
 pages:
 - catalogo/bolso-betseyville.md
