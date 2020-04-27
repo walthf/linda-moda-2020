@@ -24,7 +24,7 @@ fields:
   name: categories
   label: Categories
 - type: text
-  name: Estado
+  name: estado
   label: estado
 - type: text
   name: Talla
@@ -33,7 +33,7 @@ fields:
   name: Disponibilidad
   label: disponibilidad
 - type: text
-  name: Compra_url
+  name: compra_url
   label: compra_url
   config:
     required: true
