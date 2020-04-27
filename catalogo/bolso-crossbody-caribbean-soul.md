@@ -1,8 +1,9 @@
 ---
 thumbnail: "/uploads/IMG_20200326_163322-01.jpg"
 title: Bolso de mano Betsey Jhonshon
-date: 2019-02-06
-categories: []
+date: 2020-04-26
+categories:
+- 'Betsey Jhonshon '
 estado: Nuevo sin etiqueta
 talla: Única
 disponibilidad: Sólo una pieza
