@@ -2,7 +2,8 @@
 date: 2020-04-27
 thumbnail: "/uploads/IMG_20200326_163322-01.jpg"
 title: Bolso de mano Betseyville
-categories: []
+categories:
+- Betsey Johnson
 Estado: Usado
 Talla: Única
 Disponibilidad: Una sola pieza
