@@ -11,16 +11,16 @@ fields:
   label: Title
 - type: text
   name: Estado
-  label: estado  
+  label: estado
 - type: text
   name: Talla
-  label: talla  
+  label: talla
 - type: text
   name: Disponibilidad
-  label: disponibilidad  
+  label: disponibilidad
 - type: text
   name: Compra_url
-  label: compra_url  
+  label: compra_url
   config:
     required: true
 - type: datetime
