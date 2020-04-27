@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/Bolso__Crossbody__Caribbean__Soul4.jpg"
+thumbnail: "/uploads/IMG_20200326_163322-01.jpg"
 title: Bolso de mano Betsey Jhonshon
 date: 2019-02-06
 categories:
