@@ -37,5 +37,3 @@ fields:
   label: compra_url
   config:
     required: true
-pages:
-- catalogo/bolso-betseyville.md
