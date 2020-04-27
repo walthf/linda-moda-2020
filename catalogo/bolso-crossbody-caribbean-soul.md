@@ -10,7 +10,7 @@ disponibilidad: Sólo una pieza
 compra_url: https://www.gotrendier.mx/p/bolso-crossbody-caribbean-soul-3179171
 project_bg_color: "#E5D560"
 project_fg_color: "#0E3DA1"
-Compra_url: https://www.gotrendier.mx/u/cuteshopping
+Compra_url: https://www.gotrendier.mx/p/bolso-betsey-jhonson-3298167
 Estado: Used
 Talla: " Única"
 Disponibilidad: 1 pieza
