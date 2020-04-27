@@ -2,8 +2,7 @@
 thumbnail: "/uploads/IMG_20200326_163322-01.jpg"
 title: Bolso de mano Betsey Jhonshon
 date: 2019-02-06
-categories:
-- Bolsos para dama (Marcas Gama Media)
+categories: []
 estado: Nuevo sin etiqueta
 talla: Única
 disponibilidad: Sólo una pieza
