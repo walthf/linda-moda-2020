@@ -27,10 +27,10 @@ fields:
   name: estado
   label: estado
 - type: text
-  name: Talla
+  name: talla
   label: talla
 - type: text
-  name: Disponibilidad
+  name: disponibilidad
   label: disponibilidad
 - type: text
   name: compra_url
