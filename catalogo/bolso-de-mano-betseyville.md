@@ -1,6 +1,6 @@
 ---
 date: 2020-04-27
-thumbnail: ''
+thumbnail: "/uploads/IMG_20200326_163322-01.jpg"
 title: Bolso de mano Betseyville
 categories: []
 Estado: Usado
